@@ -35,7 +35,7 @@ esenhar e construir uma pipeline para apoiar a entrega continua da aplicação d
 
 
 ## Arquitetura do projeto
-
+O arquivo do diagrama de arquitetura por ser visto no codigo fonte do projeto
 Github Repository -> Gerenciador de vercionamento que sera armazenado o codigo fonte.
 
 ↓<br>
