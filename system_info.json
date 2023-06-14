@@ -1,0 +1,20 @@
+{
+    "cpu": {
+        "loadavg": "1.35",
+        "uptime": "1:55 0"
+    },
+    "memory": {
+        "total": "3061876",
+        "used": "2891948",
+        "used_percent": "94"
+    },
+    "disk": {
+        "total": "251G",
+        "used": "13G",
+        "free": "226G",
+        "used_percent": "6%"
+    },
+    "iostat": ,
+    "updates": "",
+    "security_updates": ""
+}
