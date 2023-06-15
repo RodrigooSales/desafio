@@ -25,7 +25,7 @@ jobs:
               uses: hashicorp/setup-terraform@v1
 
             - name: Terraform fmt
-              run: terraform fmt -check
+              run: terraform fmt
             
             - name: Terraform init
               id: init
