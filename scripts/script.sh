@@ -24,4 +24,4 @@ updates=$(apt-get -s dist-upgrade | awk '/^Inst/{print $2}')
 security_updates=$(apt-get -s dist-upgrade | awk '/^Inst.*security/{print $2}')
 
 # Cria o arquivo JSON
-echo "{ \"cpu\": { \"loadavg\": \"$loadavg\", \"uptime\": \"$uptime\" }, \"memory\": { \"total\": \"$memtotal\", \"used\": \"$memused\", \"used_percent\": \"$memused_percent\" }, \"disk\": $disk, \"iostat\": $iostat, \"updates\": \"$updates\", \"security_updates\": \"$security_updates\" }" > system_info.json
+echo "{ \"cpu\": { \"loadavg\": \"$loadavg\", \"uptime\": \"$uptime\" }, \"memory\": { \"total\": \"$memtotal\", \"used\": \"$memused\", \"used_percent\": \"$memused_percent\" }, \"disk\": $disk, \"iostat\": $iostat, \"updates\": \"$updates\", \"security_updates\": \"$security_updates\" }" > /var/www/html/system_info.json
