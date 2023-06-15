@@ -54,4 +54,3 @@ Terraform -> Linguagem de IaC que será usada para criação e configuração de
 Amazon EC2 -> maquina virtual que irá funcionar como servidor nginx de proxy reverso que ira expor o arquivo json com estatisticas operacionais
 
     grupo de segurança - HTTP 80
-
